@@ -1,0 +1,66 @@
+.a1{
+	position: absolute;
+	top: -1%;
+	left: -1%;
+  width: 101%; 
+  height: 101%;
+	background-color: #EE82EE;
+}
+.a2{
+	position: absolute;
+	top: 10%;
+	left: 63%;
+  font-size: 45px;
+  font-family:a1;
+  border-style: dotted;
+  color: white;
+}
+.a3{
+  position: absolute;
+  top: 8%;
+  left: 2%;
+  width: 48%; 
+  height: 80%;
+  background-image: url(../fotos/t1.jpg);
+}
+.a4{
+  position: absolute;
+  top: 25%;
+  left: 52%;
+  font-size: 30px;
+  font-family:a1;
+  color: white;
+}
+.a5{
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  width: 20%;
+  height: 15%;
+  font-family: a1;
+  text-shadow: 2px 3px 1px #FF00FF;
+  border: dotted 5px;
+  font-size: 37px;
+  transition: width 2s;
+  color: white;
+}
+.a5:hover{
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  width: 23%;
+  height: 15%;
+  font-family: a1;
+  text-shadow: 2px 3px 1px #FF00FF;
+  border: dotted 5px;
+  font-size: 37px;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+@font-face{
+  font-family:a1;
+  src: url(fu1.ttf);
+}
